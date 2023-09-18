@@ -20,6 +20,7 @@ button {
     margin: 10px;
     color: #FFFFFF;
     background-color: #16161d;
+    border-radius: 5px;
 }
 
 .calculator {

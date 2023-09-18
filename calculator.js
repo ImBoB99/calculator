@@ -29,3 +29,17 @@ function operate (firstNumber, secondNumber, operator) {
         return divide(firstNumber, secondNumber);
     }
 }
+
+function populate () {
+    const value = this.getAttribute("data-value");
+    console.log(value);
+}
+
+const calculatorDisplay = document.querySelector(".calculator-display p");
+calculatorDisplay.innerText = "69696969";
+
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach(function(element) {
+    element.addEventListener("click", populate)
+})
